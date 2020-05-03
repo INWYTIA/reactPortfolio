@@ -1,12 +1,23 @@
 import React from 'react';
-import Table from './components/Table';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavTabs from './components/NavTabs';
+import Footer from './components/Footer';
+import Profile from "./components/pages/Profile";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Table />
-    </div>
+    <Router>
+      <div>
+        <NavTabs />
+        <Route exact path="/" component={Profile} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
