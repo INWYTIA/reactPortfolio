@@ -1,14 +1,14 @@
 const projects = [
   {
     title: "Trail Mix",
-    img: "Trail-Mix.png",
+    img: "./Trail-Mix.png",
     text: "A group project designed to search for biking trails and provide convenient resaurants for each result.",
     sitelink: "https://inwytia.github.io/Project-1/",
     gitlink: "https://github.com/INWYTIA/Project-1"
   },
   {
     title: "Gif It To Me",
-    img: "Screenshot (18).png",
+    img: "./Screenshot (18).png",
     text: "A multiplayer, interactive board game that challenges players to write the funniest or most clever caption for a selection of animated gifs.",
     sitelink: "https://polar-savannah-75488.herokuapp.com/",
     gitlink: "https://github.com/kelstho/gif-it-to-me"

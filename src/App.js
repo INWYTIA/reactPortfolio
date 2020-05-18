@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Profile from "./components/pages/Profile";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
-import './App.css';
 
 function App() {
   return (
