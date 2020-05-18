@@ -3,8 +3,8 @@ const projects = [
     title: "Trail Mix",
     img: "Trail-Mix.png",
     text: "A group project designed to search for biking trails and provide convenient resaurants for each result.",
-    sitelink: "https://kevinngo.github.io/Project-1/",
-    gitlink: "https://github.com/KevinNgo-Creator/Project-1"
+    sitelink: "https://inwytia.github.io/Project-1/",
+    gitlink: "https://github.com/INWYTIA/Project-1"
   },
   {
     title: "Gif It To Me",
